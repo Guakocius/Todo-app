@@ -1,0 +1,41 @@
+.header {
+  color: blue;
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(270deg, #90EE90, #ADD8E6);
+
+}
+
+.todo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  text-align: center;
+
+}
+
+.field-and-button {
+  display: flex;
+  align-items: center;
+}
+
+.field-and-button input {
+  margin-right: 10px;
+}
+
+li {
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.todo-adder {
+  margin-right: 10px;
+}
